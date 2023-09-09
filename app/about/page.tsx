@@ -7,7 +7,7 @@ function About() {
     <>
       <div className="divide-y divide-gray-100 dark:divide-gray-700">
         <div className="space-y-2 pt-8  pb-8 md:space-x-5">
-          <h1 className="text-3xl text-center font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-13">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-13">
             Hola Mundo!!
           </h1>
         </div>

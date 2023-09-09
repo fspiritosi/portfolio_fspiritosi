@@ -14,3 +14,12 @@ model Guestbook {
   username String
   created_at DateTime @default(now())
 }
+
+model Message {
+  id String @id @default(uuid())
+  name String
+  email String
+  subjet String
+  content String
+  created_at DateTime @default(now())
+}

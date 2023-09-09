@@ -11,13 +11,16 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-auto mb-0 w-full bg-teal-400 flex justify-center dark:bg-teal-800">
             <div className="flex justify-between h-16">
               <div className="flex justify-between w-full">
                 <div className="flex items-center">
                   <Link href="/">
-                    <h1 className="text-2xl font-medium">
-                      Fabricio <span className="text-teal-500">Spiritosi</span>
+                    <h1 className="sm:text-2xl sm:font-medium text-xs mr-4">
+                      Fabricio{" "}
+                      <span className="text-teal-800 dark:text-teal-400">
+                        Spiritosi
+                      </span>
                     </h1>
                   </Link>
                 </div>
@@ -28,29 +31,29 @@ export default function Navbar() {
                     className={`${
                       pathname === "/"
                         ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
+                        : "border-transparent text-gray-800 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
                     }`}
                   >
                     Home
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/guestbook"
                     prefetch
                     className={`${
                       pathname === "/guestbook"
                         ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
+                        : "border-transparent text-gray-800 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
                     }`}
                   >
                     Guestbook
-                  </Link>
+                  </Link> */}
                   <Link
                     href="/about"
                     prefetch
                     className={`${
                       pathname === "/about"
                         ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
+                        : "border-transparent text-gray-800 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
                     }`}
                   >
                     Sobre Mi
@@ -61,7 +64,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/contact"
                         ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
+                        : "border-transparent text-gray-800 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
                     }`}
                   >
                     Contacto
@@ -72,7 +75,7 @@ export default function Navbar() {
                     className={`${
                       pathname === "/projects"
                         ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-                        : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
+                        : "border-transparent text-gray-800 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 test-sm font-medium"
                     }`}
                   >
                     Portfolio
@@ -131,7 +134,7 @@ export default function Navbar() {
               >
                 Home
               </Link>
-              <Link
+              {/* <Link
                 href="/guestbook"
                 prefetch
                 className={`${
@@ -141,7 +144,7 @@ export default function Navbar() {
                 }`}
               >
                 Guestbook
-              </Link>
+              </Link> */}
               <Link
                 href="/about"
                 prefetch

@@ -7,7 +7,11 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'home-background': "url('./app/assets/bgHome.png)"
+      }
+    },
   },
   plugins: [
     require("@tailwindcss/typography"), require("@tailwindcss/forms")

@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.className} bg-white text-black dark:bg-[#090908] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-gray-800 flex flex-col min-h-screen`}
+        className={`${inter.className} bg-white text-black dark:bg-[#090908] dark:text-white h-full selection:bg-gray-50 dark:selection:bg-gray-800 flex flex-col min-h-screen bg-[url('./assets/backgruond4.png')] bg-cover bg-center w-screen`}
       >
         <Provider>
           <Navbar />

@@ -6,7 +6,7 @@ export default function Projects(){
     return (
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-5xl md:leading-13">
             Mis Proyectos
           </h1>
         </div>
@@ -33,11 +33,15 @@ export default function Projects(){
                 <p className="line-clamp-6 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
                   {obj.description}
                 </p>
-                <a href={obj.link} target="_blank" className='group mt-4 inline-flex items-center  gap-1 text-sm font-medium text-teal-500'>
-                    ver proyecto..
-                    <span className='block transition-all group-hover:ms-0.5'>
-                        &rarr;
-                    </span>
+                <a
+                  href={obj.link}
+                  target="_blank"
+                  className="group mt-4 inline-flex items-center  gap-1 text-sm font-medium text-teal-500"
+                >
+                  ver proyecto..
+                  <span className="block transition-all group-hover:ms-0.5">
+                    &rarr;
+                  </span>
                 </a>
               </div>
             </article>
