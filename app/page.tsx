@@ -20,7 +20,7 @@ export default function Home() {
                 Fabricio Spiritosi
               </h3>
               <p className="text-gray-500 dark:text-gray-300 text-center">
-                Hola! Mi nombre es Fabricio y soy Desarrollador Full Stack
+                Hola Mundo! Mi nombre es Fabricio y soy Desarrollador Full Stack
               </p>
               <div className="flex space-x-5 pt-6">
                 <a href="https://github.com/fspiritosi" target="_blank">
