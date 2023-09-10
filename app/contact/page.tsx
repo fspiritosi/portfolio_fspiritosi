@@ -47,7 +47,7 @@ function Contact() {
               id="name"
               name="name"
               placeholder="Fabricio"
-              className="rounded-lg font-medium enabled:hover:border-teal-400 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
+              className="rounded-lg font-medium enabled:hover:border-sky-500 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
             />
 
             <label
@@ -61,7 +61,7 @@ function Contact() {
               name="email"
               placeholder="ejemplo@ejemplo.com"
               type="email"
-              className="rounded-lg font-medium enabled:hover:border-teal-400 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
+              className="rounded-lg font-medium enabled:hover:border-sky-500 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
             />
 
             <label
@@ -74,7 +74,7 @@ function Contact() {
               id="subjet"
               name="subjet"
               placeholder="Asunto"
-              className="rounded-lg font-medium enabled:hover:border-teal-400 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
+              className="rounded-lg font-medium enabled:hover:border-sky-500 enabled:hover:border-4 disabled:text-opacity-75 transition dark:bg-gray-800"
             />
 
             <label
@@ -88,12 +88,12 @@ function Contact() {
               name="content"
               as="textarea"
               placeholder="Mensaje"
-              className="rounded-lg font-medium enabled:hover:border-teal-400 enabled:hover:border-4 disabled:text-opacity-75 dark:bg-gray-800"
+              className="rounded-lg font-medium enabled:hover:border-sky-500 enabled:hover:border-4 disabled:text-opacity-75 dark:bg-gray-800"
             />
 
             <button
               type="submit"
-              className="md:rounded-full xs:rounded-lg dark:bg-teal-700 p-4 rounded-lg max-w-sm mx-auto my-0 w-96 mt-4 text-xl font-extrabold dark:hover:bg-teal-500 bg-teal-600 hover:bg-teal-400"
+              className="md:rounded-full xs:rounded-lg dark:bg-sky-700 p-4 rounded-lg max-w-sm mx-auto my-0 w-96 mt-4 text-xl font-extrabold dark:hover:bg-sky-500 bg-sky-700 hover:bg-sky-500"
             >
               Enviar
             </button>

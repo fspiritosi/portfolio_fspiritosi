@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="mt-auto mb-0 w-full bg-teal-400 p-4 flex justify-center dark:bg-teal-800">
+    <div className="mt-auto mb-0 w-full bg-sky-500 p-4 flex justify-center dark:bg-sky-800">
       <div className="text-sm font-bold flex justify-around w-full align-middle">
         <div className="my-auto mx-0">
           <p className=" text-gray-800 text-xs dark:text-gray-200">
