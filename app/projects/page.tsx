@@ -3,8 +3,9 @@ import Image from "next/image";
 import {TbWorldUpload} from 'react-icons/tb'
 import {BsGithub} from 'react-icons/bs'
 
-export default function Projects(){
 
+export default function Projects(){
+    console.log(data)
     return (
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
@@ -23,7 +24,7 @@ export default function Projects(){
                   fill
                   src={obj.image}
                   alt={obj.title}
-                  className="w-full h-full object-cover"
+                  className="h-full object-cover"
                 />
               </div>
               <div className="w-1/2 mr-0 p-4 sm:p-6 ">
@@ -35,7 +36,7 @@ export default function Projects(){
                 <p className="line-clamp-6 mt-2 text-sm leading-relaxed text-gray-500 dark:text-gray-400">
                   {obj.description}
                 </p>
-                <div className='flex justify-around'>
+                <div className="flex justify-around">
                   <a
                     href={obj.link}
                     target="_blank"
