@@ -13,7 +13,7 @@ interface Values {
 function Contact() {
 
   const [message, setMessage] = useState({})
-
+  
   const hanldeSubmit = (values:Values) => {
     setMessage(values)
   }
