@@ -1,5 +1,5 @@
 import BannerGymGo from "@/app/assets/bannerGymGo.png";
-import BannerDogWorld from "@/app/assets/background2.jpg";
+import BannerDogWorld from "@/app/assets/bannerDog.png";
 
 
 
@@ -29,7 +29,7 @@ export const data:MyData[] = [
         title: 'Dog World',
         description: 'Dog World es una aplicación que permite conocer las diferentes tipos de razas de perros, filtrarlas por nombre, tamaño, longevidad, todo esto, consumiendo la API:  TheDogApi (https://thedogapi.com/)',
         image:BannerDogWorld,
-        link: 'https://vercel.com/fspiritosi/pi-dogs-deploy',
+        link: 'https://pi-dogs-deploy-self.vercel.app/',
         linkGithub:"https://github.com/fspiritosi/PI-Dogs-Deploy",
         state: 'active'
     }
