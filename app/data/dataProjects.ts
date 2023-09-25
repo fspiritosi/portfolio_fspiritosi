@@ -1,6 +1,6 @@
 import BannerGymGo from "@/app/assets/bannerGymGo.png";
 import BannerDogWorld from "@/app/assets/bannerDog.png";
-import JSQuiz from "@/app/assets/bannerJSQuiz.png"
+import JSQuiz from "@/app/assets/jsQuiz.png"
 
 
 
