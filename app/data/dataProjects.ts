@@ -1,5 +1,6 @@
 import BannerGymGo from "@/app/assets/bannerGymGo.png";
 import BannerDogWorld from "@/app/assets/bannerDog.png";
+import JSQuiz from "@/app/assets/bannerJSQuiz.png"
 
 
 
@@ -31,6 +32,15 @@ export const data:MyData[] = [
         image:BannerDogWorld,
         link: 'https://pi-dogs-deploy-self.vercel.app/',
         linkGithub:"https://github.com/fspiritosi/PI-Dogs-Deploy",
+        state: 'active'
+    },
+     {
+        id:3,
+        title: 'JavaScript Quiz',
+        description: 'Esta es una aplicación de quiz realizada en React + TypeScript. Permite a los usuarios responder preguntas en un formato de cuestionario y ver sus puntajes al finalizar. El proyecto fue iniciado con Vite, utiliza MaterialUI para estilos y Zustand para el manejo de estados.',
+        image:JSQuiz,
+        link: 'https://fspiritosi-js-quiz.vercel.app/',
+        linkGithub:"https://github.com/fspiritosi/quiz",
         state: 'active'
     }
 ]
